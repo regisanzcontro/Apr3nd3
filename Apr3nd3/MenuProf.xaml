@@ -1,0 +1,15 @@
+﻿<Window x:Class="Apr3nd3.MenuProf"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apr3nd3"
+        mc:Ignorable="d"
+        Title="MenuProf" Height="332.458" Width="374.776">
+    <Grid>
+        <Button x:Name="BtSubMat" Content="Subir Material" HorizontalAlignment="Left" Margin="114,58,0,0" VerticalAlignment="Top" Width="153" Height="28" FontSize="20" Click="BtSubMat_Click"/>
+        <Button Content="Editar Material" HorizontalAlignment="Left" Margin="114,132,0,0" VerticalAlignment="Top" Width="153" Height="28" FontSize="20" Click="Button_Click"/>
+        <Button x:Name="BtBajaMat" Content="Bajar Material" HorizontalAlignment="Left" Margin="114,209,0,0" VerticalAlignment="Top" Width="153" Height="28" FontSize="20" Click="BtBajaMat_Click"/>
+
+    </Grid>
+</Window>

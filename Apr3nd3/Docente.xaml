@@ -1,0 +1,31 @@
+﻿<Window x:Class="Apr3nd3.Docente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apr3nd3"
+        mc:Ignorable="d"
+        Title="Docente" Height="506.485" Width="869.665">
+     <Grid>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,140,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,192,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,260,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <Label Content="Usuario" HorizontalAlignment="Left" Margin="126,31,0,0" VerticalAlignment="Top" FontSize="20"/>
+          <Label Content="Contraseña" HorizontalAlignment="Left" Margin="126,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.723" FontSize="20"/>
+          <Label Content="Título" HorizontalAlignment="Left" Margin="126,192,0,0" VerticalAlignment="Top" FontSize="20"/>
+          <Label Content="Nombre" HorizontalAlignment="Left" Margin="126,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.139,-1.833" FontSize="20"/>
+          <Label Content="Nivel" HorizontalAlignment="Left" Margin="126,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.493,4.974" FontSize="20"/>
+          <Label Content="Especialidades" HorizontalAlignment="Left" Margin="126,383,0,0" VerticalAlignment="Top" FontSize="20"/>
+          <Label Content="Antigüedad" HorizontalAlignment="Left" Margin="126,256,0,0" VerticalAlignment="Top" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="486,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="669,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,329,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="303,387,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="486,387,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+          <TextBox HorizontalAlignment="Left" Height="23" Margin="669,387,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button x:Name="Registro" Content="Aceptar" HorizontalAlignment="Left" Margin="732,440,0,0" VerticalAlignment="Top" Width="75" FontSize="20" Click="Registro_Click"/>
+
+    </Grid>
+</Window>

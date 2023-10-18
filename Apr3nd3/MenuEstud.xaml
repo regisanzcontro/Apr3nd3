@@ -1,0 +1,15 @@
+﻿<Window x:Class="Apr3nd3.MenuEstud"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Apr3nd3"
+        mc:Ignorable="d"
+        Title="MenuEstud" Height="383.163" Width="317.158">
+    <Grid Margin="0,0,3.667,5">
+        <Button Content="Alta materia" HorizontalAlignment="Left" Margin="92,73,0,0" VerticalAlignment="Top" Width="133" FontSize="20" Click="Button_Click"/>
+        <Button Content="Baja materia" HorizontalAlignment="Left" Margin="92,164,0,0" VerticalAlignment="Top" Width="133" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="Busca materia" HorizontalAlignment="Left" Margin="92,247,0,0" VerticalAlignment="Top" Width="133" FontSize="20" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
